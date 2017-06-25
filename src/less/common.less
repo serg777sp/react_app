@@ -1,0 +1,124 @@
+body {
+  background-color: @background-color;
+  display: inline-block;
+  min-width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.fa,
+.caret {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.btn,
+.btn:hover,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+
+    .col-xs-12, .col-xs-10, .col-sm-10, .col-xs-2, .col-sm-2, .col-md-6 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.brown {
+  color: brown;
+}
+
+label {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.modal-dialog {
+  width: 800px;
+
+  .modal-content {
+    width: 800px;
+    border-radius: 0;
+
+    .modal-header {
+      background-color: #dedfe3;
+      height: 34px;
+      padding: 10px 15px;
+
+      h4 {
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .modal-body {
+      padding: 5px 20px;
+
+      legend {
+        border: none;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.time {
+  color: #05741e;
+  font-size: 14pt;
+  font-weight: bold;
+  margin-right: 40px;
+  vertical-align: middle;
+}
+
+.tooltip.in {
+  opacity: 1;
+
+  .tooltip-inner {
+    background-color: #434a54;
+    opacity: 1;
+    max-width: 300px;
+  }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.modal-dialog {
+    top: 47%;
+    transform: translateY(-53%) !important;
+}
